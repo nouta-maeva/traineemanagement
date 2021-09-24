@@ -1,0 +1,156 @@
+/*barre de recherche*/
+*{
+	padding: 30;
+	margin: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: "poppins",sans-serif;
+    align-items: center;
+   /* position: absolute;
+    top: 102px;
+    left: 200px; */
+}
+.barrederecherche{
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	height: 43px;
+	display: flex;
+	align-items: center;
+	overflow-x: hidden;
+    margin-left: 200px;
+    margin-right: auto;
+    position: absolute;
+    top: 115px;
+    left: 200px;
+}
+.recherche{
+	display: flex;
+	justify-content: space-between;
+	padding: 3rem;
+}
+.conteneur {
+	margin-left: auto;
+    margin-right: 325px;
+    
+
+}
+:root {
+	--main-color:   #DD2F6E;
+
+	--text-grey:    #8390A2;
+}
+.barrederecherche span {
+	display: inline-block;
+	padding: 0rem 2rem;
+	font-size: 1.5rem;
+    align-items: center;
+}
+.barrederecherche input {
+	height: 100%;
+	padding: .5rem;
+	border: none;
+	outline: none;
+}*/
+
+
+
+/*texte*/
+.titre{
+     text-align: left;
+      position: absolute;
+     top: 50px;
+}
+
+.table{
+    border: dimgray;
+    border-collapse: collapse;
+    
+}
+.ajout{
+    width: 300px;
+  height: 30%;
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    top: 102px;
+    left: 50%;
+
+    
+
+}
+
+/*
+
+.hovertable{
+    position: relative;
+    border: 1px solid rgb(36, 34, 36);
+border-collapse: collapse;
+left: 19.3%;
+width: 78px;
+display: block;
+margin-top: 18%;
+}
+
+.tr,td {
+    border: 1px solid rgb(40, 191, 211);
+border-collapse: collapse;
+height: 4vh;
+}.th{
+  background:rgb(59, 58, 59);  
+color: white;
+font-size: 10px;
+}
+.td{
+    height: 6vh;
+    text-align: center;
+    font-weight: 200;
+}
+.tr:hover{
+    background: rgb(240, 240, 234);
+}
+.btn2{
+    color: white;
+    background: darkred;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.btn2:hover{
+    opacity: 0.0;
+}
+.btn3{
+    color: white;
+    background: darkorange;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.btn3:hover{
+    opacity: 0.0;
+}
+
+
+
+.btn4{
+    color: white;
+    background: darkred;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 3px;
+    cursor: pointer;
+
+}
+
+.btn4:hover{
+    opacity: 0.0;
+}*/
