@@ -16,20 +16,22 @@
   <link href="../asset/css/style.css" rel="stylesheet">
   <link href="../asset/css/style-responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="../asset/css/style2.css"> 
+  <link rel="stylesheet" href="../asset/style/titre.css">
   </head>
  <body>
 <?php include('../views/includes/header.php');?>
 <section id="main-content">
       <section class="wrapper site-min-height">
 
-        <div class="titre">
-  <h2>intern list</h2>
+        <div class="titre1">
+  <h2>trainee </h2>
 </div>
 <br><br> 
 <div class="conteneur">
   <header class="recherche"><div class="barrederecherche">
-                      <span class="las la-search"></span>
+                    
                       <input type="search" style="width: 300px;" placeholder="search here" class="form-control">
+                      <span class="las la-search"></span>
                   </div></header>
                 </div><br><br>
 
@@ -37,10 +39,13 @@
                 <div class="ajout">
                   <br>
                    <div class="row">
-                    <div class="col-md-4 ml-auto">  
-                  <div class="d-grid gap-2 col-6 mx-auto"> 
-                  <a href="../views/viewsupdatestagiaire.php">
-  <button class="btn btn-info" type="button" style="width: 300px;">add intern</button>
+                    <div class="col-md-20 ml-auto">  
+                  <div class="d-grid gap-1 col-2 mx-auto"> 
+                    <a href="../views/viewsupdatestagiaire.php">
+                   
+  <button class="btn btn-info" type="button" style="width: 300px;">+ add intern</button>
+                 
+                 
                   </a>
                   </div>
                     </div>
@@ -50,10 +55,15 @@
 
 <!--creation tableau-->
 
+<div class="titre3">
+  <center>
+  <h2>trainee list </h2>
+  </center>
+</div>
     
 <div class="table">
 <table class="table ">
-  <thead class="table-info">
+  <thead class="table-secondary">
     <tr>
       <th scope="col">trainee id</th>
       <th scope="col">first name</th>

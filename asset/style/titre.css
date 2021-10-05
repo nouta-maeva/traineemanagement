@@ -1,0 +1,11 @@
+ .titre1{
+	text-align: left;
+	position: absolute;
+   top: 5%;
+	color: #25d4df;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+ }
+ .titre0{
+	color: #25d4df;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px  
+ }

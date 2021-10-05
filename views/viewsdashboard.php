@@ -31,6 +31,7 @@
   ======================================================= -->
 </head>
 <link rel="stylesheet" href="../asset/css/style1.css"/>
+<link rel="stylesheet" href="../views/style/dashboard.css">
 <body>
 
   <section id="container">
@@ -49,8 +50,76 @@
         <br><br>
         <!--mon contenue ici-->
       
+
+        
+  <div class="carte">
+<center>
+
+  <div class="box1">  
+   
+<div class="card text-white bg-warning mb-10" style="width: 30rem;">
+ <h3 class="card-header">project</h3><br> <br>
+  <div class="card-body">
+   <h5= class="card-title">project number</h5><br><br>
+    <p class="card-text"> 20.</p>
+  </div>
+</div>
+         
+      
+ 
+        
+<div class="card text-dark bg-ligth mb-10" style="width: 30rem;">
+ <h3 class="card-header">tasks</h3><br> <br>
+  <div class="card-body">
+    <h5 class="card-title">tasks number</h5><br>
+  <p class="card-text">
+      23.</p>
+  </div>
+</div>
  
 
+ 
+<div class="card text-dark bg-secondary mb-10" style="width: 30rem;">
+<h3 class="card-header">department</h3><br> <br>
+  <div class="card-body">
+    <h5 class="card-title">department number</h5><br>
+    <p class="card-text">
+      45.</p>
+
+  </div>
+</div>
+ </div>
+
+<!-- </div> -->
+
+<div class="box2">
+   
+ <!-- <div class="box1>" -->
+ <div class="card text-dark bg-info mb-10" style="width:30rem;">
+ <h3 class="card-header">intern</h3><br> <br>
+  <div class="card-body">
+  <h5 class="card-title">intern number</h5><br>
+    <p class="card-text"> 20.</p>
+  </div>
+</div> 
+   
+
+   
+<div class="card text-white bg-dark mb10" style="width: 30rem;">
+<h3 class="card-header">framer</h3><br> <br>
+  <div class="card-body">
+  <h5 class="card-title">framer number</h5><br>
+    <p class="card-text"> 12.</p>
+  </div>
+</div>
+</center>
+</div>
+ 
+<!-- </div> -->
+ 
+
+
+ 
    
      
   

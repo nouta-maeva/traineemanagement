@@ -54,35 +54,93 @@
  
         <?php include('../views/includes/headerAjout.html');?>
 
-  
 
-
+<!-- 
         <div class="pg">
-                        <form action="controllerCourses/validUpdate/" method="POST" class="viewsproject">
-                            <div class="add">
-                                <h1>Add trainee</h1>
-                            </div>
-                            <div class="in">
-                                <label>id intern:</label><br>
-                                <input type="text" name="id intern" class="inpt" value=""><br>
-                                <label>name intern:</label><br>
-                                <input type="text"  name="last name" class="inpt" value=""><br>
-                                <label for="email">email:</label><br>
-                                <input id="email" type="text"  name="email" class="inpt" value=""><br>
-                                <label>idframer:</label><br>
-                                <input type="text" name="id framer" class="inpt" value=""> </input><br>
-                           <label>framer name</label>
-                           <input type="text" name="framer name" class="inpt" value=""></input><br>
-                           
-                            </div>
-                            <!-- <a href="../views/viewsallstagiaire.php"> -->
-                            <button name="update" type="submit" class="submit">Submit</button>
-                            <!-- </a> -->
-                            <input type="hidden" name="courseId" value="<?=$data['courseId']?>">
-                            
-                        </form>
-                    </div>
+        <form action="controllerCourses/validUpdate/" method="POST" class="viewCourses">
+            <div class="add">
+                <h1>Add a Course</h1>
+            </div>
+            <div class="in">
+                <label>Course-Code:</label><br>
+                <input type="text" name="courseCode" class="inpt" value=" "><br>
+                <label>Course-Title:</label><br>
+                <input type="text"  name="courseTitle" class="inpt" value=" "><br>
+                <label>Course-Language:</label><br>
+                <input type="text"  name="courseLangage" class="inpt" value=" "><br>
+                <label>Course-Description:</label><br>
+                <input type="text" name="courseDescription" class="inpt" value=" "> </input><br>
+            </div>
+            <button name="update" type="submit" class="submit">Submit</button>
+            <input type="hidden" name="courseId" value="">
+        </form>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+ <div class="pg">
+        <form action="controllersproject/validUpdate/" method="POST" class="viewsproject">
+            <div class="title">
+                <h1>edit profil</h1>
+            </div>
+            <div class="in">
+                <label>id intern:</label><br>
+                <input type="text" name="id intern" class="inpt" value=""><br>
+               
+                <label>name intern:</label><br>
+                <input type="text"  name="last name" class="inpt" value=""><br>
+
+                 <label>date de naissance:</label><br>
+                <input type="date"  name="date de naissance" class="inpt" value=""><br>
                 
+                <label >email:</label><br>
+                <input type="email"  name="email" class="inpt" value=""><br>
+               
+                <label>adress:</label><br>
+                <input type="text" name="adress" class="inpt" value=""> </input><br>
+          
+                <label>number</label>
+           <input type="number" name="number" class="inpt" value=""></input><br>
+           
+           <label>etablissement:</label><br>
+                <input type="text" name="adress" class="inpt" value=""> </input><br>
+                
+                <label>filiere:</label><br>
+                <input type="text"  name="filiere" class="inpt" value=""><br>
+                
+                <label>niveau</label>
+           <input type="text" name="number" class="inpt" value=""></input><br>
+           
+        </div>
+            <!-- <a href="../views/viewsallstagiaire.php"> -->
+              <button name="update" type="submit" class="submit">Submit</button>
+           
+            <input type="hidden" name="courseId" value=" ">
+            
+        </form>
+    </div> 
+ 
 
 
 

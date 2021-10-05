@@ -62,7 +62,7 @@
                 <input type="text" name="project number" class="inpt" value="" required/><br>
                 <label>project name :</label><br>
                 <input type="text"  name="project name" class="inpt" value=""><br>
-                <label>intern name :</label><br>
+                <label>trainee name :</label><br>
                 <select name="name" class="inpt">
                 <option value="francois">francois</option>
                 <option value="paule">paule</option>
@@ -76,7 +76,7 @@
                 <!-- <input type="date"> -->
                 <input type="date" name="end date" class="inpt" value=""></input><br>
            <label>description</label>
-           <input type="text-area" name="description" class="inpt" value=""></input><br>
+           <input type="textarea" name="description" class="inpt" value=""></input><br>
            
             </div>
             <!-- <a href="../views/viewsallstagiaire.php"> -->

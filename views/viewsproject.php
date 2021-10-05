@@ -1,4 +1,4 @@
-    <?php require_once('views/includes/head.html'); ?>
+    <!-- <?php require_once('views/includes/head.html'); ?>
     
     <?php require_once('views/includes/headerAjout.html'); ?>
 
@@ -24,4 +24,4 @@
     <?php require_once('views/includes/footer.html'); ?>
     
      
-    
+     -->

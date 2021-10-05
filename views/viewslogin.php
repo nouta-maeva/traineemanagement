@@ -17,7 +17,7 @@
         
         <form action=" viewsdashboard.php" method="POST">
         <h2><connexion/h2>
-            <h1>LOGIN</h1><br>
+            <center><h1>LOGIN</h1></center><br>
             <label><b>user id:</b></label>
             <input type="text"  >
             <label><b>password:</b></label>

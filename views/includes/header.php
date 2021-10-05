@@ -61,7 +61,7 @@
           </li>
           <li class="sub-menu">
             <!-- <a href="javascript:;"> -->
-            <a href="../views/viewsalldepartement.php">
+            <a href="../views/viewsdepartment.php">
               <i class="fa fa-th"></i>
               <span>department</span>
               </a>
@@ -71,6 +71,12 @@
             <!-- <a href="javascript:;"> -->
               <i class="fa fa-tasks"></i>
               <span>tasks</span>
+              </a>
+              <li class="sub-menu">
+            <!-- <a href="javascript:;"> -->
+            <a href="../views/viewsrapport.php">
+              <i class="fa fa-th"></i>
+              <span>report</span>
               </a>
         </ul>
         <!-- sidebar menu end-->

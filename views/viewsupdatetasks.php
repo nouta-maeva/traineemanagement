@@ -55,7 +55,7 @@
  <div class="pg">
         <form action="controllersproject/validUpdate/" method="POST" class="viewsproject">
             <div class="add">
-                <h1>Add project</h1>
+                <h1>Add tsks</h1>
             </div>
             
             <div class="in">

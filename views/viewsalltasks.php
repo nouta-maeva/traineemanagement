@@ -17,6 +17,7 @@
   <link href="../asset/css/style.css" rel="stylesheet">
   <link href="../asset/css/style-responsive.css" rel="stylesheet">
    <link rel="stylesheet" href="../asset/css/style2.css">  
+   <link rel="stylesheet" href="../asset/style/titre.css">
   </head>
  <body>
 <?php include('../views/includes/header.php');?>
@@ -24,16 +25,19 @@
       <section class="wrapper site-min-height">
         
         <!--contenue-->
-        <div class="titre">
-  <h2>tasks list</h2>
+        <div class="titre1">
+          
+  <h2>tasks </h2>
+          
 </div><br><br>
     
 
  <div class="conteneur">
   <header class="recherche"><div class="barrederecherche">
                       <!-- <span class="las la-search"></span> -->
-                      <input type="search" style="width: 300px;" placeholder="search here..." class="form-control" >
                       <span class="las la-search"></span>
+                      <input type="search" style="width: 300px;" placeholder="search here..." class="form-control" >
+                      
 
                   </div></header>
                 </div><br><br>
@@ -45,14 +49,20 @@
                     <div class="col-md-20 ml-auto">  
                   <div class="d-grid gap-1 col-2 mx-auto"> 
                   <a href="../views/viewsupdateproject.php">
-  <button class="btn btn-info" type="button" style="width: 300px;">new tasks</button>
-                  </a>
+                  
+  <button class="btn btn-info" type="button" style="width: 300px;">+ new tasks</button>
+                
+                 </a>
                   </div>
                     </div>
 </div>
                </div><br><br>
          
          
+        <div class="titre3">
+          <center>
+  <h2>tasks list</h2></center>
+</div>
 <div class="table">
 <table class="table ">
   <thead class="table-secondary">
@@ -64,7 +74,8 @@
       <th scope="col">task completion deadline</th>
        <th scope="col">remaining time</th>
         <th scope="col">stain status</th>
-         <th scope="col">acion</th>
+        <th scope="col"></th>
+         <th scope="col">action</th>
       <!-- <th scope="col">framer name</th>
       <th scope="col">action</th> --> 
       <!-- <th scope="col">end date</th> -->
@@ -79,14 +90,52 @@
       <td>12/02/21</td>
       <td>2jour</td> 
       <td>1</td>
+
       <td><button type="button" class="btn btn-danger">hard</button>
+</td>
+
+<td>
+<div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="deroulantb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">views</button>
+          <div class="dropdown-menu" aria-labelledby="deroulantb">
+          <option>sandrine manga</option>
+            <option>bopda george</option>
+            <option>kadji yann</option>
+          </div>
+        </div>
 </td>
       <!-- <td>frncois</td> -->
       <td class="td">
-      <a title="click to edit the student" href="">
+       
+
+   <!-- creation modal -->
+
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+  description 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" modal-lg role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> project description</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal">x </button> -->
+      </div>
+      <div class="modal-body">
+       jfnjhfhjknfjdsfgskkejdfnjeunnsvnsiojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <button type="button" class="btn btn-info">description</button> -->
 <button type="button" class="btn btn-secondary">modify</button>
-<button type="button" class="btn btn-info">description</button>
- <button type="button" class="btn btn-dark">views</button> 
+ <!-- <button type="button" class="btn btn-dark">views</button>  -->
 </tr>
 
     <tr>
@@ -98,14 +147,59 @@
       <td>1</td>
       <td><button type="button" class="btn btn-warning">in progress</button>
 </td>
+<td>
+<div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="deroulantb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">views</button>
+          <div class="dropdown-menu" aria-labelledby="deroulantb">
+          <option>sandrine manga</option>
+            <option>bopda george</option>
+            <option>kadji yann</option>
+          </div>
+        </div>
+</td>
       <!-- <td>frncois</td> -->
       <td class="td">
-      <a title="click to edit the student" href="">
-<button type="button" class="btn btn-secondary">modify</button>
-<button type="button" class="btn btn-info">description</button>
- <button type="button" class="btn btn-dark">views</button>
-  </tbody>
-  
+      
+         
+<!-- <button type="button" class="btn btn-secondary">modify</button>  -->
+
+
+<!-- <button type="button" class="btn btn-info">description</button> -->
+
+        <!-- creation modal -->
+        <div class="bouton">
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+  description 
+</button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" modal-lg role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> project description</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal">x </button> -->
+      </div>
+      <div class="modal-body">
+      creation d'uninterface de connexion  avec un mot de passe des utilisateur et les autre donne de ton choix .
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin du modal -->
+<a title="clic to modify a tasks" href="../views/viewsmodifytasks.php">
+        <button type="button" class="btn btn-secondary">modify</button> 
+</a>
+      
+ <!-- <button type="button" class="btn btn-dark">views</button> -->
+</td>
+    </tr>
   </tbody>
 </table>
 </div>

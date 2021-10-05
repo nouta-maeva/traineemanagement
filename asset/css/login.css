@@ -18,11 +18,7 @@ form {
 
 
 }
-#container h1{
-    width: 38%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
+
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -59,6 +55,18 @@ input[type=submit]:hover {
 }
 .logo{
     text-align: center;
-    text-decoration: overline;
+    /* text-decoration: overline; */
     background-color: #25d4df;
+    position: absolute;
+     left: auto;
+     height: 70px;
+     width: 26.5%;
+     top: 5%;
+    
 }
+/* #container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+} */
